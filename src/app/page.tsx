@@ -13,14 +13,7 @@ export default function Home() {
     },
     {
       endpoint: "/api/zelda",
-      directions: [
-        "Returns Data object that is an object of a video game character's properties:",
-        "name: string",
-        "species: string",
-        "videoGames: [array]",
-        "home: string",
-        "skills: [array]"
-      ],
+      directions: ["Returns Data object that is an object of a video game character's properties:"],
     },
     {
       endpoint: "/api/fake-weather",
@@ -32,7 +25,8 @@ export default function Home() {
     {
       endpoint: "/api/url-key",
       directions: [
-        "placeholder for directions lskfjasd;lfjasdlf;j adsfdsajf;ldfj aj;l",
+        "Passing a key value in the url string is a simple way to keep unauthorized access to the API's data.  This is not very secure, but it will protect your data from accidental leaks",
+        "Test",
       ],
     },
     {
@@ -52,7 +46,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
       Available Routes
-      <div className="mt-5 w-full md:w-1/2">
+      <div className="mt-5 w-full md:w-1/2 rounded-lg space-y-3">
         {endpoints.map((el, index) => {
           return (
             <Endpoint
