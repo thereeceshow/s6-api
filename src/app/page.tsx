@@ -26,20 +26,28 @@ export default function Home() {
       endpoint: "/api/url-key",
       directions: [
         "Passing a key value in the url string is a simple way to keep unauthorized access to the API's data.  This is not very secure, but it will protect your data from accidental leaks",
-        "Test",
+        "The key in the Replit instructions",
       ],
     },
     {
       endpoint: "/api/characters",
       directions: [
-        "placeholder for directions lskfjasd;lfjasdlf;j adsfdsajf;ldfj aj;l",
+        "Get all characters, some characters, or a single character by ID",
+        "• api/characters/id/1 -> Solid Snake",
+        "• api/characters/id/1-3 -> Solid Snake, Lara Croft, Geralt of Rivia",
+        "• api/characters/id/1,3 -> Solid Snake Geralt of Rivia",
+        "• Single number for one character.",
+        "• Use a - to get all characters in range",
+        "• Use a , to get specific characters by id",
       ],
     },
     {
       endpoint: "/api/headers",
       directions: [
-        "placeholder for directions lskfjasd;lfjasdlf;j adsfdsajf;ldfj aj;l",
+        "A more secure way to pass this is going to be to send it in the headers.",
+        "How to use Headers:",
       ],
+      docLink: 'https://developer.mozilla.org/en-US/docs/Web/API/Headers'
     },
   ];
 
