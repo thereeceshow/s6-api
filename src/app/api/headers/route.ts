@@ -13,6 +13,3 @@ export async function GET(req: NextRequest) {
     }
     return NextResponse.json({ data })
 }
-
-// curl --header "apiKey: a1b2c3d4" http://localhost:3000/headers
-// curl --header "apiKey: a1b2c3d4" localhost:3000/api/headers
