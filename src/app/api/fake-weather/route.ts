@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 
+export const fetchCache = 'force-no-store'
+
 export async function GET() {
 //  declare global {
 //     interface Array<T> {
@@ -80,7 +82,6 @@ export async function GET() {
     "Cary",
     "Cathedral City",
     "Cedar Rapids",
-    "Champaign",
     "Chandler",
     "Charleston",
     "Charlotte",
